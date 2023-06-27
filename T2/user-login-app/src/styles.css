@@ -1,0 +1,47 @@
+/* styles.css */
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+  }
+  .ok{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 55px;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 55px;
+  }
+  
+  input,
+  button {
+    margin-left:10px;
+    margin-bottom: 10px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    font-weight: bold;
+    text-align: center;
+  }
+  
